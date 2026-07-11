@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+# never commit secrets
+.env
+.env.*
+*.pem
+*.key
+# internal planning notes — local only, never public
+docs/
+# drafts — preview locally, git cannot commit them
+src/content/posts/_drafts/
